@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.navbar{
+    box-shadow: 3px 3px 5px 3px #222;
+}
+
+.header .btn {
+    border: 1px solid #015249;
+}
+.container .navbar-brand{
+    font-size: 1.5rem;
+}
+.header .btn:hover {
+    background: #2bb36b;
+}
+.header{
+    background: url('../img/background.jpg');
+}
+
+section .container .btn{
+    border: 1px solid #f4f4f4;
+}
+section .container .btn:hover{
+    background:  #3cc47c;
+}
+
+/* ACORDEON */
+#acordion{
+    padding: 50px;
+    border-radius: 5px;
+    background: #015249;
+}
+.accordion .btn {
+    color: #2bb36b;
+}
+
+.accordion .card-header .btn:hover {
+    color: #015249;
+    background: none;
+}
+/* TEAM */
+.team, footer{
+    background: #015249;
+}
+/* DISPOSITIVOS MOVILES */
+@media screen and (max-width: 768px){
+    .container img {
+        margin-top: 10px;
+    }
+} 
+.team .card-body img{
+    height: 150px;
+}
