@@ -1,0 +1,381 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/land.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/ba78d568e6.js" crossorigin="anonymous"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #007849;"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Website Name </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="overlay text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 text-center justify-content-center align-self-center"
+            >
+              <h1 class="mb-4">This is a Title</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, adipisci.
+              </p>
+              <a href="#" class="btn text-white mb-5">More info </a>
+            </div>
+            <div class="col-md-6">
+              <!-- <img src="img/img2.jpg" class="img-fluid"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- NEWSLETTER -->
+    <section class="text-white py-3" style="background-color: #007849;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control"
+              placeholder="Name"
+              id=""
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control"
+              placeholder="E-mail"
+              id=""
+            />
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn text-white">Suscribirse</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col md-3">
+            <div class="card text-center" style="background: #3cc47c;">
+              <div class="card-body">
+                <h3 class="">Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col md-3">
+            <div
+              class="card text-center text-white"
+              style="background-color: #007849;"
+            >
+              <div class="card-body">
+                <h3 class="">Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col md-3">
+            <div class="card text-center" style="background: #3cc47c;">
+              <div class="card-body">
+                <h3 class="">Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col md-3">
+            <div
+              class="card text-center text-white"
+              style="background-color: #007849;"
+            >
+              <div class="card-body">
+                <h3 class="">Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-3 text-center text-muted" style="background: #d9d9d9;">
+      <div class="container">
+        <div class="row">
+          <div>
+            <h3>Our Product</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              eveniet iste commodi! Rerum odio repudiandae inventore cupiditate
+              minima nesciunt quidem deleniti laborum quam sunt tempore
+              perferendis, quos esse qui soluta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACORDEON -->
+    <section>
+      <div class="container my-5" id="acordion">
+        <h3 class="text-center mb-5 text-white">Also you can see</h3>
+        <div class="accordion text-center" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Phones
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body row">
+                <div class="col-md-6 justify-content-center align-self-center">
+                  <p>
+                    Find your favorits Phones
+                  <br> Now, the new IPhone
+                  </p>
+                  <a href="#" class="btn btn-outline-success px-5">Go!</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/phone.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Tablets
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body row">
+                <div class="col-md-6">
+                  <img src="img/tablet.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-6 justify-content-center align-self-center">
+                  <p>
+                    Find your favorits Tablets
+                  <br> Now, the new IPad
+                  </p>
+                  <a href="#" class="btn btn-outline-success px-5">Go!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Laptops
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body row">
+                <div class="col-md-6 justify-content-center align-self-center">
+                  <p>
+                    Find your favorits Laptops
+                  <br> Now, the new HP Spectre
+                  </p>
+                  <a href="#" class="btn btn-outline-success px-5">Go!</a>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/notebook.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team text-center">
+      <div class="container p-5">
+        <h1 class="text-white">Our Team</h1>
+        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi!</p>
+        <div class="row py-5">
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/member1.jpg" class="img-fluid rounded">
+                <h3>Lin Park</h3>
+                <p>Graphic Design</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                    <div class="p-4">
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="p-4">
+                      <i class="fab fa-twitter"></i>
+                    </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/member2.jpg" class="img-fluid rounded">
+                <h3>Jhon Smith</h3>
+                <p>Fronted</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                    <div class="p-4">
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="p-4">
+                      <i class="fab fa-twitter"></i>
+                    </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/member3.jpg" class="img-fluid rounded">
+                <h3>Alex Müller</h3>
+                <p>Web Managger</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                    <div class="p-4">
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="p-4">
+                      <i class="fab fa-twitter"></i>
+                    </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/member4.jpg" class="img-fluid rounded">
+                <h3>Sami Ramirez</h3>
+                <p>Backend</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                    <div class="p-4">
+                      <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="p-4">
+                      <i class="fab fa-twitter"></i>
+                    </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="bg-secondary text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 py-3">
+            <h3>Contact</h3>
+            <p>Have you something to say? come on, do it</p>
+            <form action="">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fa fa-user input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="far fa-envelope input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="E-mail">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="far fa-keyboard input-group-text"></i>
+                </div>
+               <textarea class="form-control" placeholder=" Write your Message"></textarea>
+              </div>
+              <button class="bnt btn-primary btn-block btn-lg">
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.jpg" class="img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container py-3 text-secondary text-center">
+        Copyright &copy; 2020
+      </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
